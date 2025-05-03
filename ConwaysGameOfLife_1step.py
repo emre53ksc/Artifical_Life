@@ -1,4 +1,8 @@
 import itertools
+# Conway's Game Of Life
+# this code finds configuraitons with 1 step lifespan
+# and at least 1 crowd death
+
 
 def get_neighbors(x, y, rows, cols):
     directions = [(-1, -1), (-1, 0), (-1, 1),
